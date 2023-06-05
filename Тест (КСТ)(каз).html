@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Test/test.css">
+    <title>ТҚК:Тест</title>
+</head>
+    <body class="body" cz-shortcut-listen="true">
+        <form name="quiz" class="quiz" id="quiz" action="javascript:check();">
+     <script class="testscript" type="text/javascript">
+        var c=0;
+        function Engine(num){
+            if (num == 0) 
+            {c++}
+        else
+         {var obj = document.getElementById('Txt'+(num));obj.innerHTML =(num)+", "}}
+            
+            
+         function ca()
+               {   
+                   // Находим нужный элемент по ID
+                   var obj = document.getElementById('Txt');
+                   // Меняем его содержимое
+                   obj.innerHTML =(x);        
+               }
+            
+            
+        function show(divid)
+        {
+        if(document.getElementById(divid).style.display=="none")
+        {
+        document.getElementById(divid).style.display="inline";
+        }
+        else
+        {
+        document.getElementById(divid).style.display="none";
+        }
+        }   
+         
+        function otv(){var score=c; x=score 
+         
+        {if (score<=100){
+        document.getElementById(divid="otv1").style.display="inline"; 
+        }
+         
+        {if (score>=100 && score<=110){
+        document.getElementById(divid="otv2").style.display="inline";
+        }
+         
+        {if (score>=110 && score<=200){
+        document.getElementById(divid="otv3").style.display="inline";
+        }
+         
+        {if (score>=210 && score<=300){
+        document.getElementById(divid="otv4").style.display="inline";
+        }
+        }}}}}
+         
+         
+        </script>
+         
+         
+         
+        <TABLE class="table"height="170" >
+          <TR>
+            <TD width="580">
+         
+        <div class="button" id="go" style="DISPLAY: inline"><form id="go" >
+                                
+         
+          <INPUT class="knopka" type=button value="Өту" onClick="show('test');show('go')" >
+          </h6><div class="test">
+            <a class="wayback" href="ТҚК-Жүйелік блок.html"><p  class="test-text">Қайту</p></a>
+        </div>
+        </form></div>
+                                
+                          
+                           
+        <!--1-->
+        <div id="test" style="DISPLAY:none"><form id="vop1" >
+        <P  class="counter" align="center">10-нан 1<br><br></p><P class="question"><strong>АКТ бұл -</strong></P>
+        <a id="0" class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test1');show('test')">a) Ақпараттық және коммуникациялық технологиялар</a><br>
+        <a id="1" class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test1');show('test')">b) Ғарыштық технологиялар институты</a><br>
+        <a id="1" class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test1');show('test')">c)Халықаралық коммунистік қозғалыс</a><br>
+        </form>
+        <INPUT class="nazad" type=button value="Артқа" onclick="show('test'); show('go');" >
+        </div>
+                  
+         
+         <!--2-->
+        <div id="test1" style="DISPLAY:none"><form id="vop2" >
+        <P  class="counter" align="center">10-нан 2<br><br></p><P class="question"><strong>АКТ контекстіндегі аппараттық және бағдарламалық қамтамасыз етудің айырмашылығы неде?</strong></P>
+        <a id="2" class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test2');show('test1')">a) Аппараттық құрал компьютерде жұмыс істейтін бағдарламаларды білдіреді, ал бағдарламалық жасақтама физикалық. құрамдас бөліктер.</a><br>
+        <a id="0" class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test2');show('test1')">b)Аппараттық құрал физикалық дегенді білдіреді. компьютер құрамдас бөліктері, ал бағдарламалық құрал бағдарламаларға жатады.</a><br>
+        <a id="2" class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test2');show('test1')">c) Аппараттық және бағдарламалық қамтамасыз ету бір мағынаны білдіретін өзара алмастырылатын терминдер.</a><br>
+        </form>
+        <INPUT class="nazad" type=button value="Артқа" onclick="show('test'); show('test1');" >
+        </div>                 
+         
+                   
+                   
+        <!--3-->
+        <div id="test2" style="DISPLAY:none"><form id="vop3" >
+        <P  class="counter" align="center">10-нан 3<br><br></p><P class="question"><strong>Интернет адамдардың сөйлесу және ақпаратқа қол жеткізу тәсілін қалай өзгертті?</strong></P>
+         
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test3');show('test2')"id="0" >a)Интернет байланыс пен ақпаратқа қол жеткізуді жедел және жаһандық етті.</a><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test3');show('test2')"id="3" >b) Интернет байланыс пен ақпаратқа қол жеткізуді баяу және тиімділігін төмендетті.</a><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test3');show('test2')"id="3" >c) Интернет адамдардың қарым-қатынасына және ақпаратқа қол жеткізуіне айтарлықтай әсер еткен жоқ.</a><br>
+        </form>
+        <INPUT class="nazad" type=button value="Артқа" onclick="show('test2'); show('test3');" >
+            </div> 
+         
+         
+                    
+                            
+                            
+        <!--4-->          
+        <div id="test3" style="DISPLAY:none"><form id="vop4" >
+        <P  class="counter" align="center">10-нан 4<br><br></p><P class="question"><strong>Әлеуметтік медиа қоғамға қалай әсер етті және адамдар бір-бірімен қалай әрекеттеседі?</strong></P>
+         
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test4');show('test3')"id="4" >a) Әлеуметтік желілер қоғамды оқшау және жеке тұлғасыз етті.</a><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test4');show('test3')"id="4" >b) Әлеуметтік медиа қоғамға немесе адамдардың бір-бірімен қарым-қатынасына айтарлықтай әсер еткен жоқ.</a><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test4');show('test3')"id="0" >c) Әлеуметтік желілер адамдарды жақындастырып, қарым-қатынасты жеке тұлғаға айналдырды.</a><br>
+         
+        </form>
+        <INPUT class="nazad" type=button value="Артқа" onclick="show('test3'); show('test4');" >
+            </div> 
+                            
+                  
+                             
+        <!--5-->
+        <div id="test4" style="DISPLAY:none"><form id="vop5" >
+        <P  class="counter" align="center">10-нан 5<br><br></p><P class="question"><strong>АКТ-ны пайдалануға «нақты қолжетімділіктің» қанша критерийі бар?</strong></P>
+         
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test5');show('test4')"id="5" >a) 14</a><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test5');show('test4')"id="0" >b) 12</a><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test5');show('test4')"id="5" >c) 3</a><br>
+        </form><INPUT class="nazad" type=button value="Артқа" onclick="show('test4'); show('test5');" >
+            </div> 
+         
+                            
+                  
+                           
+        <!--6-->
+        <div id="test5" style="DISPLAY:none"><form id="vop6" >
+        <P  class="counter" align="center">10-нан 6<br><br></p><P class="question"><strong>АКТ қолжетімділігін талдау үшін «қолжетімділік үлгілерінің» құрылымын кім анықтайды?</strong></P>
+         
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test6');show('test5')"id="6" >a) Клод Э́лвуд Шеннон </a><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test6');show('test5')"id="6" >b) Марк Лейдлоу</a><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test6');show('test5')"id="0" >c) Марк Варшауэр</a><br>
+        </form>
+        <INPUT class="nazad" type=button value="Артқа" onclick="show('test5'); show('test6');" >
+            </div>  
+                            
+                  
+        <!--7-->
+        <div id="test6" style="DISPLAY:none"><form id="vop7" >
+        <P  class="counter" align="center">10-нан 7<br><br></p><P class="question"><strong>АКТ құралдары нешеге бөлінеді?</strong></P>
+         
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test7');show('test6')"id="7" >a) 1</a><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test7');show('test6')"id="0" >b) 3</a><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test7');show('test6')"id="7" >c) 14</a><br>
+        </form>
+        <INPUT class="nazad" type=button value="Артқа" onclick="show('test6'); show('test7');" >
+        </div>
+
+        <!--8-->
+        <div id="test7" style="DISPLAY:none"><form id="vop8" >
+            <P  class="counter" align="center">10-нан 8<br><br></p><P class="question"><strong>Қай желі түрі деректерді беру жылдамдығы жоғары ?</strong></P>
+             
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test8');show('test7')"id="8" >a) Бірдей</a><br>
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test8');show('test7')"id="0" >b) Жергілікті жерде</a><br>
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test8');show('test7')"id="8" >c) Жаһандық деңгейде</a><br>
+            </form>
+            <INPUT class="nazad" type=button value="Артқа" onclick="show('test7'); show('test8');" >
+        </div>
+        <!--9-->
+            <div id="test8" style="DISPLAY:none"><form id="vop9" >
+            <P  class="counter" align="center">10-нан 9<br><br></p><P class="question"><strong>Ең көп тараған дескрипторлар </strong></P>
+             
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test9');show('test8')"id="9" >a) Модельдер мен жүйелер</a><br>
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test9');show('test8')"id="9" >b)Құрылғылар мен сымдар</a><br>
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test9');show('test8')"id="0" >c) Құрылғылар мен арналар</a><br>
+            </form>
+            <INPUT class="nazad" type=button value="Артқа" onclick="show('test8'); show('test9');" >
+        </div>
+        <!--10-->
+            <div id="test9" style="DISPLAY:none"><form id="vop10" >
+            <P  class="counter" align="center">10-нан 10<br><br></p><P class="question"><strong>АКТ-ны оқу үрдісіне енгізудің негізгі міндеті</strong></P>
+             
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);otv();ca();show('test9')"id="10" >a) Түрлі дидактикалық материалдарды қолдануға ынталандыру.</a><br>
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);otv();ca();show('test9')"id="0" >b)Оқу үрдісінде АКТ-ны қолдану негізінде білім сапасын арттыру.</a><br>
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);otv();ca();show('test9')"id="10" >c) Білім сапасына кепілдік беретін тек осындай құрамдастардың технологиясымен таныстыру.</a><br>
+            </form>
+            <INPUT class="nazad" type=button value="Артқа" onclick="show('test8'); show('test9');" >
+        </div>
+                            
+                  
+                        
+        <!--Ответ 1-->
+        <div id="otv1" style="DISPLAY:none"><form id="ot1" >
+        <P  class="counter" align="center"><strong>Сынақтан өтті</strong><br><br>10 сұрақтан <a style="color:#404040" id = "Txt">0</a> дұрыс жауаптар.<br><br>
+         
+        <p class="wa" align="center">Сұрақтарға қате жауаптар: <a id = "Txt1"></a><a id = "Txt2"></a><a id = "Txt3"></a><a id = "Txt4"></a><a id = "Txt5"></a><a id = "Txt6"></a><a id = "Txt7"></a><a id = "Txt8"></a><a id = "Txt9"></a><a id = "Txt10"></a></p>
+        </F><br><br>
+        </form><INPUT style="width: 100%;" class="nazad" type=button value="Пройти снова" onclick="show('go'); show('otv1');" >
+        </div>
+    </body>
+</html>

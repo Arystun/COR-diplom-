@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Test/test.css">
+    <title>Тест</title>
+</head>
+    <body class="body" cz-shortcut-listen="true">
+        <form name="quiz" class="quiz" id="quiz" action="javascript:check();">
+     <script class="testscript" type="text/javascript">
+        var c=0;
+        function Engine(num){
+            if (num == 0) 
+            {c++}
+        else
+         {var obj = document.getElementById('Txt'+(num));obj.innerHTML =(num)+", "}}
+            
+            
+         function ca()
+               {   
+                   // Находим нужный элемент по ID
+                   var obj = document.getElementById('Txt');
+                   // Меняем его содержимое
+                   obj.innerHTML =(x);        
+               }
+            
+            
+        function show(divid)
+        {
+        if(document.getElementById(divid).style.display=="none")
+        {
+        document.getElementById(divid).style.display="inline";
+        }
+        else
+        {
+        document.getElementById(divid).style.display="none";
+        }
+        }   
+         
+        function otv(){var score=c; x=score 
+         
+        {if (score<=100){
+        document.getElementById(divid="otv1").style.display="inline"; 
+        }
+         
+        {if (score>=100 && score<=110){
+        document.getElementById(divid="otv2").style.display="inline";
+        }
+         
+        {if (score>=110 && score<=200){
+        document.getElementById(divid="otv3").style.display="inline";
+        }
+         
+        {if (score>=210 && score<=300){
+        document.getElementById(divid="otv4").style.display="inline";
+        }
+        }}}}}
+         
+         
+        </script>
+         
+         
+         
+        <TABLE class="table"height="170" >
+          <TR>
+            <TD width="580">
+         
+        <div class="button" id="go" style="DISPLAY: inline"><form id="go" >
+                                
+         
+          <INPUT class="knopka" type=button value="Пройти" onClick="show('test');show('go')">
+          </h6><div class="test">
+            <a class="wayback" href="КТС-Системный блок .html"><p  class="test-text">Вернуться</p></a>
+        </div>
+        </form></div>
+                                
+                          
+                           
+        <!--1-->
+        <div id="test" style="DISPLAY:none"><form id="vop1" >
+        <P class="counter" align="center">1 из 10<br><br></p> <P class="question"><strong>Что такое КТС(Комплекс технических средств)?</strong></P>
+        <a id="0" class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test1');show('test')">a) Комплекс, представляющий собой совокупность технических средств автоматизации</a><br><br><br>
+        <a id="1" class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test1');show('test')">b) Представляет собой совокупность технических устройств, предназначенных для реализации процессов управления, с целью обеспечения наиболее эффективного решения задач.</a><br><br>
+        <a id="1" class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test1');show('test')">c) Документ, определяющий направление развития городского транспорта и транспортной инфраструктуры.</a><br><br>
+        </form>
+        <INPUT class="nazad" type=button value="Назад" onclick="show('test'); show('test');" >
+        </div>
+                  
+         
+         <!--2-->
+        <div id="test1" style="DISPLAY:none"><form id="vop2" >
+        <P class="counter" align="center">2 из 10<br><br></p><P class="question"><strong>Каковы преимущества использования КТС в производственном процессе?</strong></P>
+        <a id="2" class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test2');show('test1')">a) Лучшее регулирование цепочки поставок, улучшенные административные процедуры и увеличение финансовых инструментов.</a><br><br>
+        <a id="0" class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test2');show('test1')">b) Повышение эффективности, снижение затрат и лучшее управление ресурсами.</a><br><br>
+        <a id="2" class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test2');show('test1')">c) Улучшенный контроль производственного процесса, лучшее управление человеческими ресурсами и повышение эффективности.</a><br><br>
+        </form>
+        <INPUT class="nazad" type=button value="Назад" onclick="show('test'); show('test1');" >
+        </div>                 
+         
+                   
+                   
+        <!--3-->
+        <div id="test2" style="DISPLAY:none"><form id="vop3" >
+        <P class="counter" align="center">3 из 10<br><br></p><P class="question"><strong>Сколько видов комплексов выделяют ?</strong></P>
+         
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test3');show('test2')"id="0" >a) 4</a><br><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test3');show('test2')"id="3" >b) 1</a><br><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test3');show('test2')"id="3" >c) 6</a><br><br>
+        </form>
+        <INPUT class="nazad" type=button value="Назад" onclick="show('test1'); show('test2');" >
+        </div> 
+         
+         
+                    
+                            
+                            
+        <!--4-->          
+        <div id="test3" style="DISPLAY:none"><form id="vop4" >
+        <P class="counter" align="center">4 из 10<br><br></p><P class="question"><strong>Какова цель КТС?</strong></P>
+         
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test4');show('test3')"id="4" >a) Регулировать использование ресурсов.</a><br><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test4');show('test3')"id="4" >b) Для управления цепочкой поставок.</a><br><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test4');show('test3')"id="0" >c) Для контроля производственного процесса.</a><br><br>
+         
+        </form> <INPUT class="nazad" type=button value="Назад" onclick="show('test2'); show('test3');" ></div> 
+                            
+                  
+                             
+        <!--5-->
+        <div id="test4" style="DISPLAY:none"><form id="vop5" >
+        <P class="counter" align="center">5 из 10<br><br></p><P class="question"><strong>Что включает в себя КТС?</strong></P>
+         
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test5');show('test4')"id="5" >a) Процедуры управления цепочкой поставок.</a><br><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test5');show('test4')"id="0" >b) Приборы и оборудование для контроля производственного процесса.</a><br><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test5');show('test4')"id="5" >c) Инструменты регулирования использования ресурсов.</a><br><br>
+        </form> <INPUT class="nazad" type=button value="Назад" onclick="show('test3'); show('test4');" ></div> 
+         
+                            
+                  
+                           
+        <!--6-->
+        <div id="test5" style="DISPLAY:none"><form id="vop6" >
+        <P class="counter" align="center">6 из 10<br><br></p><P class="question"><strong>Какова роль КТС в производственном процессе?</strong></P>
+         
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test6');show('test5')"id="6" >a) Контролировать производственный процесс и обеспечивать его эффективность.</a><br><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test6');show('test5')"id="6" >b) Регулировать цепочку поставок и управлять ресурсами, используемыми в производстве.</a><br><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test6');show('test5')"id="0" >c) Контролировать производственный процесс и обеспечивать его эффективность.</a><br><br>
+        </form> <INPUT class="nazad" type=button value="Назад" onclick="show('test4'); show('test5');" ></div>  
+                            
+                  
+        <!--7-->
+        <div id="test6" style="DISPLAY:none"><form id="vop7" >
+        <P class="counter" align="center">7 из 10<br><br></p><P class="question"><strong>Сколько комплектующих частей в системном блоке ?</strong></P>
+         
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test7');show('test6')"id="7" >a) 7</a><br><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test7');show('test6')"id="0" >b) 8</a><br><br>
+        <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test7');show('test6')"id="7" >c) 10</a><br><br>
+        </form>
+        <INPUT class="nazad" type=button value="Назад" onclick="show('test5'); show('test6');" >
+        </div>
+
+        <!--8-->
+        <div id="test7" style="DISPLAY:none"><form id="vop8" >
+            <P class="counter" align="center">8 из 10<br><br></p><P class="question"><strong>Как КТС улучшает производственный процесс?</strong></P>
+             
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test8');show('test7')"id="8" >a) Путем улучшения регулирования цепочки поставок, снижения затрат и повышения эффективности административных процедур.</a><br><br>
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test8');show('test7')"id="0" >b) Обеспечивает мониторинг производственного процесса в режиме реального времени, сокращая количество отходов и оптимизируя использование ресурсов.</a><br><br>
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test8');show('test7')"id="8" >c) Путем контроля финансовых инструментов, задействованных в производстве, улучшения управления человеческими ресурсами и сокращения потерь.</a><br><br>
+            </form>
+            <INPUT class="nazad" type=button value="Назад" onclick="show('test6'); show('test7');" >
+        </div>
+        <!--9-->
+            <div id="test8" style="DISPLAY:none"><form id="vop9" >
+            <P class="counter" align="center">9 из 10<br><br></p><P class="question"><strong>Почему КТС важен для современных производственных процессов?</strong></P>
+             
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test9');show('test8')"id="9" >a) Он контролирует финансовые инструменты, задействованные в производстве, улучшает управление человеческими ресурсами и сокращает потери.</a><br><br>
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test9');show('test8')"id="9" >b) Он улучшает регулирование цепочки поставок, снижает затраты и повышает эффективность административных процедур.</a><br><br>
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);show('test9');show('test8')"id="0" >c) Он обеспечивает мониторинг производства в режиме реального времени, сокращает количество отходов и оптимизирует использование ресурсов.</a><br><br>
+            </form>
+            <INPUT class="nazad" type=button value="Назад" onclick="show('test7'); show('test8');" >
+        </div>
+        <!--10-->
+            <div id="test9" style="DISPLAY:none"><form id="vop10" >
+            <P class="counter" align="center">10 из 10<br><br></p><P class="question"><strong>Каковы основные компоненты КTS?</strong></P>
+             
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);otv();ca();show('test9')"id="10" >a) Административные процедуры, финансовые инструменты и человеческие ресурсы.</a><br><br>
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);otv();ca();show('test9')"id="0" >b) Устройства контроля, измерительные приборы и системы управления.</a><br><br>
+            <a class="variant" style="cursor:pointer" onClick="Engine(this.id);otv();ca();show('test9')"id="10" >c) Управление цепочками поставок, регулирование ресурсов и контроль производства.</a><br><br>
+            </form>
+            <INPUT class="nazad" type=button value="Назад" onclick="show('test8'); show('test9');" >
+        </div>
+                            
+                  
+                        
+        <!--Ответ 1-->
+        <div id="otv1" style="DISPLAY:none"><form id="ot1" >
+        <P class="counter" align="center"><strong>Тест пройден</strong><br><br>Из 10 вопросов у вас <a style="color:#404040" id = "Txt">0</a> правильных ответов.<br><br>
+         
+        <p class="variant" align="center">Неправилные ответы на вопросы <a id = "Txt1"></a><a id = "Txt2"></a><a id = "Txt3"></a><a id = "Txt4"></a><a id = "Txt5"></a><a id = "Txt6"></a><a id = "Txt7"></a><a id = "Txt8"></a><a id = "Txt9"></a><a id = "Txt10"></a></p>
+        </F><br><br>
+        </form><INPUT style="width: 100%;" class="nazad" type=button value="Пройти снова" onclick="show('go'); show('otv1');" ></div>
+    </body>
+</html>

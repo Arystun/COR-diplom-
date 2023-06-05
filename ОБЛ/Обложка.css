@@ -1,0 +1,37 @@
+body{
+  margin: auto;
+}
+
+.main{
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+.main img{
+    width: 100%;
+    height: auto;
+}
+.main .button{
+  position: absolute;
+  top: 75%;
+
+  background-color: #ffffff ;
+  color: #25255E;
+  font-size: larger;
+  padding: 12px 24px;
+  border: 2px solid #000000;
+  cursor: pointer;
+  transition: 0.2s ease;
+  width: 200px;
+  height: 75px;
+}
+.main .button:hover {
+    color: #ffffff;
+    font-size: xx-large;
+    border: 2px solid #000000;
+    background-color: #25255E;
+}
+.link{
+  display: flex;
+  justify-content: center;
+}
